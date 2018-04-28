@@ -14,7 +14,7 @@
 
 <body>
 
-<nav role="navigation" class="navbar navbar-default">
+<nav role="navigation" class="navbar navbar-default navbar-fixed-top">
 	<div class="container-fluid"> <!--contain best for bootstap mobile website -->
 		<div class="navbar-header">  <!--this is for the company icon-->
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main"> <!--dropdown button for the mobile version-->
@@ -23,10 +23,12 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>	
-			<a class="navbar-brand" href="#"><img src="img/w3newbie.png"></a>
+			<a class="navbar-brand" href="#">
+				<img src="img/logo.png" height = "55px" width = "55px" class="d-inline-block align-top" alt="">
+			</a>
 		</div>
 			<div class="collapse navbar-collapse" id="navbar-collapse-main">
-				<ul class="nav navbar-nav navbar-right">
+				<ul class="nav navbar-nav navbar-left">
 					<li><a class="active" href="#">Home</a></li>
 					<li><a href="#">About</a></li>
 					<li><a href="#">Services</a></li>
@@ -38,7 +40,7 @@
     </div>
 </nav>
 
-
+<!--
 <div id="home">
 	<div class="landing-text">
 		<h1>Creative Corner Decorations</h1>
@@ -47,16 +49,92 @@
 	</div>
 </div>
 
+<img src="img/CCD_landing_image.png" class="img-responsive">
+-->
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img class="img-responsive center-block" src="img/a.png" alt="Los Angeles">
+    </div>
+
+    <div class="item">
+      <img class="img-responsive center-block" src="img/b.jpg" alt="Chicago">
+    </div>
+
+    <div class="item">
+      <img class="img-responsive center-block" src="img/c.jpg" alt="Chicago">
+    </div>
+
+    <div class="item">
+      <img class="img-responsive center-block" src="img/d.jpg" alt="New York">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev" style="background:none">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next" style="background:none">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<div class="padding">
+	<div class="container">
+		<h1 class="sub-header"><font color="#23415C"> Weddings </font></h1>
+		<ul> 
+			<li>To bust the first myth, a wedding planner does NOT need to be expensive - you can get our support for as little as $600!</li>
+			<li>We can tailor make a package to suit your needs and budget by helping just a little, or a lot</li>
+			<li>The Queen package is the full wedding planning suite, where pink apple covers every detail of the preparation, planning and execution leaving you with a completely stress free wedding - pure bliss.</li>
+			<li>The Dame package is our most cost effective and with this package we come in a month before the wedding to manage and coordinate all your suppliers/vendors. We confirm all your vendors are delivering according to their contracts, remove the pre-wedding stress and make sure everything has been checked (and rechecked) and nothing has been missed. We will be present on the day to execute your wedding </li>
+			<li>Our Princess and Duchess packages offer varying levels of our involvement between the two above</li>
+			<li>As well as organising the wedding, we hire out awesome wedding decor - and can deliver, set-up and pack-down too.</li>
+			<li>As every wedding is different, get in touch today for a complimentary meeting to discuss your specific requirements and how we can add sparkle to your wedding </li>
+		</ul>
+	</div>
+</div>
+
+
+	<div class="container text-center">
+		<h3><font color="#CB2EA9">CONTACT US </font> TODAY FOR A FREE CONSULTATION!</h3>
+	</div>
+
+
+<div class="padding">
+	<div class="container">
+		<h1 class="sub-header"><font color="#23415C"> Events & parties </font></h1>
+		<ul> 
+			<li>Pink apple is an affordable planner for any type of party or event - we love them all.</li>
+			<li>We can arrange parties Auckland wide, but can also travel as far as you need</li>
+			<li>We will source and select all the suppliers/vendors required, arrange decor, invites, set-up etc</li>
+			<li>You can have as much or as little support as you need - we will make sure you relax and actually enjoy your party :-) </li>
+			<li>We have extensive experience in planning baby showers, christenings, kids and adult birthday parties, engagements, corporate functions etc</li>
+		</ul>
+	</div>
+</div>
+
 <div class="padding">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-6"> <!-- means we want to use up 6 col for this. Bootstrap has 12 cols.-->
-				<img src="img/bootstrap.png">
+				<img src="img/wedding-table2.jpg">
 			</div>	
-			<div class="col-sm-6 text-center">
-				<h2>All About Using Bootstrap.</h2>
-				<p class="lead"> Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document. </p>
-				<p>To make your document look professionally produced, Word provides header, footer, cover page, and text box designs that complement each other. For example, you can add a matching cover page, header, and sidebar. Click Insert and then choose the elements you want from the different galleries.</p>
+			<div class="col-sm-6">
+				<h1 class="sub-header"><font color="#23415C"> Cost </font></h1>
+				<p> The wedding and event planning costs are determined based on your specific requirements so it's best to get in touch and arrange a no obligations discussion</p>
+				<p>As an estimate for wedding planning, the cost can range between $600 - $1400 for wedding day coordination only and between $3000 - $5000 for the complete wedding planning package (Queen package).</p>
 			</div>
 		</div>
 	</div>
@@ -64,19 +142,41 @@
 
 <div class="padding">
 	<div class="container">
+		<h1 class="sub-header"><font color="#23415C"> Testimonials </font></h1>
 		<div class="row">
 			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-				<img src="img/sass.png" class="img-responsive">
+				<p><h4>Katherine Torres, bride (March 2018) </h4>We were very lucky to have Heather organise our beautiful wedding at such short notice - it would not have been possible without her. She was so organised, reliable and executed our vision for the day perfectly. She was so easy to work with, efficient and knowledgeable. She created the most amazing day for us, it was like a dream. We highly recommend Heather and we can't thank her enough! </p>
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-				<h4>Built with Saas</h4>
+				<p><h4>Angie Curtis, Treasuring Hearts Photography </h4>I worked with Heather in January 2017, and I was so impressed with how organised she was, especially seeing that the couple was planning their wedding all the way from the UK, and I am based in Wellington! She planned everything meticulously, with her own touch of style, keeping us all in the loop ever step of the way. Your day is her day too...she takes the journey with you. ♥</p>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<p><h4>Mike Steffens, DJ (August 2017) </h4>I worked with Heather earlier this year and she brought together the wedding at Allely House perfectly. She worked tremendously hard in the background creating a wonderful celebration of love with family and friends. She was a pleasure to work with and I would highly recommend her to any bride or venue looking to have a flawless wedding day.</p>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<p><h4>Rachel Lewis, business owner (November 2017) </h4>We used Pink Apple to help us plan and run the end of year Christmas event for our community of women in business. Heather was amazing and went over and above the call of duty to plan out the evening, help us decorate and then ensure the smooth running of the night. I was able to relax and mingle knowing that Heather had everything covered and was so grateful for her calm help. I was also tricky to pin down prior to the event so Heather ran with this largely on her own and did a wonderful job! Highly recommend, thank you so much Heather!</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="padding">
+	<div class="container">
+		<h1 class="sub-header"><font color="#23415C"> About Us </font></h1>
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<img src="img/shreya_avatar.jpg" alt="Avatar" class="avatar">
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<h3><font color="#23415C"> Shreya Patel </font></h3>
 				<p>To make your document look professionally produced, Word provides header, footer, cover page, and text box designs that complement each other. For example, you can add a matching cover page, header, and sidebar. Click Insert and then choose the elements you want from the different galleries.</p>
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-				<img src="img/less.png" class="img-responsive">
+				<img src="img/parul_avatar.jpg" alt="Avatar" class="avatar">
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-				<h4>And Less</h4>
+				<h3><font color="#23415C"> Parul Patel </font></h3>
 				<p>To make your document look professionally produced, Word provides header, footer, cover page, and text box designs that complement each other. For example, you can add a matching cover page, header, and sidebar. Click Insert and then choose the elements you want from the different galleries.</p>
 			</div>
 		</div>
@@ -84,22 +184,23 @@
 </div>
 
 
-
+<!--
 <div id="fixed">
 </div>
-
+-->
 
 
 <div class="padding">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-6">
-				<h2>The cool thing about this website</h2>
-				<p> Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document. </p>
-				<p>To make your document look professionally produced, Word provides header, footer, cover page, and text box designs that complement each other. For example, you can add a matching cover page, header, and sidebar. Click Insert and then choose the elements you want from the different galleries.</p>
+				<h1 class="sub-header"><font color="#23415C"> The cool thing about choosing us </font></h1>
+				<h4> We LOVE planning parties and weddings!!!!</h4>
+				<p>For the last 20 years I have been the trusted party planner for friends and family - and I have loved every event. I have arranged baby showers, christenings, hen parties, birthdays, holidays etc! The more I planned, the more I realised how much I loved the job and wanted to make it my career.</p>
+				<p>I was married in Auckland in January 2017 and planned the wedding myself while living in the UK and holding down a demanding job. Following our wedding, I was addicted to the country as well as the role of wedding planning. So hence the career path started and I decided to make my dream job a reality....</p>
 			</div>
 			<div class="col-sm-6"> <!-- means we want to use up 6 col for this. Bootstrap has 12 cols.-->
-				<img src="img/bootstrap2.png" class="img-responsive">
+				<img src="img/wedding-table.jpg" class="img-responsive">
 			</div>	
 		</div>
 	</div>

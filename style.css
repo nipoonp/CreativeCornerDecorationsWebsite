@@ -4,37 +4,48 @@
 }
 
 .navbar {
-	background-color: #23415C;
-	padding: 1% 0;
+	background-color: #FFFFFF;
+	padding: 0.5% 0;
 	font-size: 1.2em; /*default font in google chrome is 16px and 1.2 times is 18 or 19*/
+	border-width: 0;
+	margin: 0;
 }
 
+
 .navbar-brand{
-	min-height: 55px;
 	padding: 0 15px 5px;
 }
 
+
 .navbar-default .navbar-nav li a {
-	color: #D5D5D5;
+	color: #545454;
 }
 
 .navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active{
-	color: #FFFFFF;
+	color: #121212;
+	font-weight: bold;
 }
 
+/*
 #home{
-	background: url(img/mountains.jpeg) no-repeat center center fixed;
+	background: url(img/CCD_landing_image.png) no-repeat center center;
 	display: table;
 	height: 100%;
 	position: relative;
 	width: 100%;
 	background-size: cover;
-}
+}	
 
 .landing-text{
 	display: table-cell;
 	text-align: center;
 	vertical-align: middle;
+}
+*/
+
+.carousel-inner img {
+	min-width: 100%;
+	min-height: 100%;
 }
 
 .landing-text h1{
@@ -48,6 +59,10 @@
 
 .padding img{
 	width: 100%;
+}
+
+.sub-header{
+	padding-bottom: 15px;
 }
 
 #fixed{
@@ -79,6 +94,10 @@ footer {
 
 .icon {
 	max-width: 200px;
+}
+
+.avatar {
+	border-radius: 50%;
 }
 
 @media (max-width: 768px){
