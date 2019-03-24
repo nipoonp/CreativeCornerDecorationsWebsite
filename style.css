@@ -1,7 +1,8 @@
+/*
 .navbar {
 	background-color: #FFFFFF;
 	padding: 0.5% 0;
-	font-size: 1.2em; /*default font in google chrome is 16px and 1.2 times is 18 or 19*/
+	font-size: 1.2em;
 	border-width: 0;
 	margin: 0;
 }
@@ -18,12 +19,53 @@
 	color: #121212;
 	font-weight: bold;
 }
+*/
 
-.carousel-inner img {
-	max-width: 100%;
-	max-height: 50%;
+.carousel-wrap {
+  margin: 90px auto;
+  padding: 0 5%;
+  width: 80%;
+  position: relative;
 }
 
+/* fix blank or flashing items on carousel */
+.owl-carousel .item {
+  position: relative;
+  z-index: 100; 
+  -webkit-backface-visibility: hidden; 
+}
+
+/* end fix */
+.owl-nav > div {
+  margin-top: -26px;
+  position: absolute;
+  top: 50%;
+  color: #cdcbcd;
+}
+
+.owl-nav i {
+  font-size: 52px;
+}
+
+.owl-nav .owl-prev {
+  left: -30px;
+}
+
+.owl-nav .owl-next {
+  right: -30px;
+}
+
+/*
+.carousel .owl-item{
+    height:285px;
+    width:100%;
+}
+
+.carousel .owl-item img{
+    height:285px;
+    width:100%;
+}
+*/
 .landing-text h1{
 	font-size: 500%;
 	font-width: 700;
