@@ -22,6 +22,9 @@ $('.owl-carousel').owlCarousel({
 })
 
 
+onPortfolio();
+
+
 /*
 $("#content-home").load("html/home.html"); 
 $("#content-ourStory").load("html/ourStory.html"); 
@@ -84,6 +87,11 @@ function onPortfolio(){
   hideAllContent();
 
   $("#portfolio").show();
+
+  var elem = document.querySelector('.m-p-g');
+        document.addEventListener('DOMContentLoaded', function() {
+          var gallery = new MaterialPhotoGallery(elem);
+        });
 }
 
 function onTestimonial(){

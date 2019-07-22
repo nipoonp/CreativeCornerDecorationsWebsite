@@ -21,6 +21,10 @@
 }
 */
 
+.page-cover{
+	width: 100%
+}
+
 .carousel-wrap {
   margin: 90px auto;
   padding: 0 5%;
